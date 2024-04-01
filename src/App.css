@@ -57,6 +57,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 80%; /* Ajuste o tamanho conforme necessário */
   height: 70%; /* Ajuste o tamanho conforme necessário */
+
+  @media (max-width: 768px) {
+    width: 90%;
+    height: auto;
+  }
 }
 
 .login-content {
@@ -86,21 +91,48 @@
 .login-button-container {
   background-color: #4285F4; /* Cor de fundo do quadrado do botão */
   border-radius: 10px;
-  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 40%;
+  height: 90px;
+  margin-right: 20px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.google-login-btn {
+.login-btn {
+  background-color: #fff; /* Cor do botão em branco */
+  color: #333; /* Cor do texto do botão */
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+
+  
+
+}
+
+.cna-btn {
   background-color: #fff; /* Cor do botão em branco */
   color: #333; /* Cor do texto do botão */
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
-  display: inline-flex;
-  align-items: center;
   justify-content: center;
+  margin-top: 5px;
   transition: background-color 0.3s ease;
+
+ 
 }
 
 .google-login-btn:hover {
