@@ -156,3 +156,42 @@
   border-radius: 0 10px 10px 0; /* Arredondando apenas o canto direito */
 }
 
+.form-criar-conta {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.campo-input {
+  margin-bottom: 10px;
+}
+
+.campo-input label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo-input input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.botao-criar-conta {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.botao-criar-conta:hover {
+  background-color: #333;
+}

@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import './Pages/login'
-import LoginPage from './Pages/login';
+import './Pages/Login'
+import LoginPage from './Pages/Login';
 
 function App() {
   return (
